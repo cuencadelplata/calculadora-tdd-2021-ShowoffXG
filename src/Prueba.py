@@ -17,7 +17,9 @@ def menu():
             elif (op == 3):
                 print(calc1.multi(x, y))
             elif (op == 4):
-                print(calc1.div(x,y))
+                print(calc1.div(x, y))
+            elif (op == 5):
+                print(calc1.pot(x, y))
 
 if __name__ ==  '__main__':
     menu()
