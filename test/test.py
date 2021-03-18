@@ -21,5 +21,11 @@ class Mis_tests(unittest.TestCase):
     def test_pot(self):
         self.assertEqual(Calc().pot(5, 2), 25)
 
-    if __name__ == '__main__':
-        unittest.main()
+    def test_pot2(self):
+        self.assertEqual(Calc().pot(0, 1), 0)
+
+    def test_pot3(self):
+        self.assertEqual(Calc().pot(0, 0), 1)
+
+if __name__ == '__main__':
+    unittest.main()

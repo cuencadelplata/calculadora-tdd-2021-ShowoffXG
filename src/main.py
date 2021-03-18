@@ -13,8 +13,10 @@ class Calc:
 
         def pot (self, x, y):
                 result = 1
+                if (y == 0):
+                        return 1
                 for _ in range(y):
-                        result = result * x
+                          result = result * x
                 return result
 
         def menu(self):
